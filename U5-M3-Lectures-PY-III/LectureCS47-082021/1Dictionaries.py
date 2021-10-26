@@ -1,3 +1,7 @@
+# import builtins
+# print(dir(builtins))
+# print(help("del"))
+
 """
 Add "Herb" to the phonebook with the number 7653420789.
 Remove "Bill" from the phonebook.
