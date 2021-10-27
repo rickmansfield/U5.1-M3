@@ -15,11 +15,11 @@ def csFirstUniqueChar(input_str):
             count[letter] = 1
         else:
             count[letter] +=1
-            
+    # print(count)
     for index in range(len(input_str)):
         if count[input_str[index]] == 1:
             return index
-        
+    # print(count)
     return -1
 
 print(csFirstUniqueChar(input_str = "lambdaschool")) # 2
