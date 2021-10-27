@@ -15,7 +15,10 @@ phonebook = {
 # YOUR CODE HERE
 phonebook["Herb"] = 7653420789
 del phonebook["Bill"]
-
+# alternatively
+# phonebook.pop("Bill")
+print(dir(phonebook))
+print(help(phonebook.pop))
 
 # Should print Herb is in the phonebook.
 if "Herb" in phonebook:

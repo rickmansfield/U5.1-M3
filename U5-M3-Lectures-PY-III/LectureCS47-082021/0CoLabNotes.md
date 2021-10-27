@@ -5,11 +5,11 @@
 ## CoLab
 - [Notes](https://colab.research.google.com/drive/1Kjsasop1h7LAaLNfQ1CfbtiIkKJI76dg?usp=sharing#scrollTo=vpxroiS0frUG)
 
-## Objectives
+## Dictionaries
 - perform basic dictionary operations
-- recognize mutable and immutable objects
-- compare the time complexity of different approaches to a problem using Big O notation
-- compare the space complexity of different approaches to a problem using Big O notation
+- understand mutable vs immutable
+- compare time complexity
+- compare space complexity
 - use list comprehensions
 
 ## Time Complexity

@@ -1,4 +1,6 @@
 """
+My Reference https://www.tutorialspoint.com/python-program-to-find-all-duplicate-characters-in-a-string#:~:text=First%2C%20we%20will%20find%20the%20duplicate%20characters%20of,not.%20If%20not%20present%20append%20to%20the%20list
+
 Demonstration
 Given a non-empty array of integers `nums`, 
 every element appears twice except except for one. 

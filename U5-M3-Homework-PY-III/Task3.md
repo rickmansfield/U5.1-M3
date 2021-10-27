@@ -1,7 +1,8 @@
 # Unit 5.1 M3 Task 3
 
 ## Instructions
-- Given two strings that include only lowercase alpha characters, str_1 and str_2, write a function that returns a new sorted string that contains any character (only once) that appeared in str_1 or str_2.
+- Given two strings that include only lowercase alpha characters, str_1 and str_2, 
+- write a function that returns a new sorted string that contains any character (only once) that appeared in str_1 or str_2.
 
 ## Examples:
 
