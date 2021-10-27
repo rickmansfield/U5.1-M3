@@ -1,5 +1,7 @@
 # Unit 5.1 M3 Task 6
 
+## Resources 
+- [Link](https://www.tutorialspoint.com/first-unique-character-in-a-string-in-python#:~:text=First%20Unique%20Character%20in%20a%20String%20in%20Python,1%2C%20then%20return%20that%20key%2C%20otherwise%20return%20-1)
 ## Instructions
 
 - Given a string, write a function that returns the index of the first unique (non-repeating) character. 
