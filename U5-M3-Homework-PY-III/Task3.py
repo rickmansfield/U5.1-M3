@@ -21,10 +21,9 @@ import math
     - if char not in list newList.append(char)
 - iterate over second string compare to newList
     - if char not in list newlist.appen(char)
+-sort list per specifications/instructions & set to unique variable
 - convert list to string using .join() & set to variable finalString
 - return finalstring
-
-
 """
 str1 = "aabbbcccdef"
 str2 = "xxyyzzz"
