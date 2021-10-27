@@ -2,7 +2,7 @@
 Using Big O notation, what is the correct 
 classification of space complexity for the fuction below
 
-My Answer is 
+My Answer is O(2n) which evaluates to O(n)
 """
     
 def do_a_couple_things(n): ## my guess hence is O(2n)
