@@ -70,4 +70,4 @@ def number_of_steps(num): # O(log(n))
     return steps
 
 # print(number_of_steps(10))
-print(number_of_steps(10000))
+print(number_of_steps(100))
