@@ -9,17 +9,17 @@
 """
 
 def csFirstUniqueChar(input_str):
-    count = {}
+    count = {} # dictionary of Count:Letters i.e. key:value
     for letter in input_str:
+        # print(letter)
         if letter not in count:
-            count[letter] = 1
+            count[letter] = 1 # assigns the letter(value) a key of 1
         else:
-            count[letter] +=1
-    # print(count)
+            count[letter] +=1 # amends the key by +1 for that letter(value) in Key:value pair
+    print(count)
     for index in range(len(input_str)):
         if count[input_str[index]] == 1:
             return index
-    # print(count)
     return -1
 
 print(csFirstUniqueChar(input_str = "lambdaschool")) # 2
