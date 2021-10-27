@@ -16,14 +16,13 @@ import math
 # print(dir(count))
 # print(list("aabbbcccdef"))
 """
-- initiate empty string/list set it to a variable name to capture each letter "one time" (from either list)
-- initiate a counter to track duplicate matches
-- iterate over first string/list with characters from second string/list to find duplicates
-- count number of times char in str1 fourn in str2
-- write a conditional if str1 char in str2 count += 1
-- if counter <2 append char to newList[]
--
-- return final newString
+- initiate empty list set it to a variable name to capture each letter "one time". 
+- iterate over first string compared to newList
+    - if char not in list newList.append(char)
+- iterate over second string compare to newList
+    - if char not in list newlist.appen(char)
+- convert list to string using .join() & set to variable finalString
+- return finalstring
 
 
 """
@@ -31,19 +30,17 @@ str1 = "aabbbcccdef"
 str2 = "xxyyzzz"
 def csLongestPossible(str_1, str_2):
     eachLetterOnce = []
-    matchCounter = 0
-    # list1 = str_1.split()
-    # list2 = str_2.split()
-    # print(list1)
+    for char in str_1:
+        if char not in eachLetterOnce:
+            eachLetterOnce.append(char)
     for char in str_2:
-        if char in str_1:
-            matchCounter += 1
-        else:
-            matchCounter = 1
-        if matchCounter <=1:
-            foundOnce.append(char)
-    return foundOnce
+        if char not in eachLetterOnce:
+            eachLetterOnce.append(char)
+    sortedList = sorted(eachLetterOnce)
+    finalString = ''.join(sortedList)
+    return finalString
 
 
 print(csLongestPossible("aabbbcccdef", "xxyyzzz"))  # -> "abcdefxyz"
 print(csLongestPossible("abc", "abc")) # -> "abc"
+print(csLongestPossible("aretheyhere", "yestheyarehere"))
