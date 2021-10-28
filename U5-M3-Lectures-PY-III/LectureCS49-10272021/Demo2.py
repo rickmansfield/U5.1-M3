@@ -7,17 +7,17 @@ Examples:
 - single_number([10]) -> 10
 """
 
-
 def single_number(nums):
     no_dupes = []
 
-    for i in nums:
-        if i not in no_dupes:
-            no_dupes.append(i)
+    for numb in nums:
+        if numb not in no_dupes:
+            no_dupes.append(numb)
         else:
-            no_dupes.remove(i)
+            no_dupes.remove(numb)
+        print(no_dupes)
 
-    return no_dupes.pop()
+    return no_dupes.pop() # same as no_dupes[0]
 
     # Solution 2
     my_dict = {num: 0 for num in nums}
