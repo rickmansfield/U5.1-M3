@@ -11,12 +11,12 @@
 def csFirstUniqueChar(input_str):
     count = {} # dictionary of Count:Letters i.e. key:value
     for letter in input_str:
-        # print(letter)
+        # print(letter) to see that these are actually letters
         if letter not in count:
             count[letter] = 1 # assigns the letter(value) a key of 1
         else:
             count[letter] +=1 # amends the key by +1 for that letter(value) in Key:value pair
-    print(count)
+    print(count) # printing the dictionary to "see" the results
     for index in range(len(input_str)):
         if count[input_str[index]] == 1:
             return index
